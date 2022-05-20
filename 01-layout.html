@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <style>
+        .bg {
+            background-color: #abc123;
+            border: 1px solid red;
+        }
+    </style>
+    <title>栅格布局</title>
+</head>
+
+<body>
+    <!-- <div class="container"> -->
+    <div class="container-fluid">
+        <!-- 1 -->
+        <div class="row">
+            <div class="col-sm bg">
+                三分之一空间占位
+            </div>
+            <div class="col-sm bg">
+                三分之一空间占位
+            </div>
+            <div class="col-sm bg">
+                三分之一空间占位
+            </div>
+        </div>
+        <!-- 2 -->
+        <div class="row">
+            <div class="col bg">
+                1 of 3
+            </div>
+            <div class="col-6 bg">
+                2 of 3 (更宽-12格中占6格，其它6格另外两列平分)
+            </div>
+            <div class="col bg">
+                3 of 3
+            </div>
+        </div>
+        <div class="row">
+            <div class="col bg">
+                1 of 3
+            </div>
+            <div class="col-5 bg">
+                2 of 3 (更宽-12格中占5格,其它7格另外两列平分-不论奇偶都能达成)
+            </div>
+            <div class="col bg">
+                3 of 3
+            </div>
+        </div>
+        <!-- 3 -->
+        <div class="row justify-content-md-center">
+            <div class="col col-lg-2 bg">
+                1 of 3
+            </div>
+            <div class="col-md-auto bg">
+                可变宽度内容自由伸张，左右宽度不变。可变宽度内容自由伸张，左右宽度不变。
+            </div>
+            <div class="col col-lg-2 bg">
+                3 of 3
+            </div>
+        </div>
+        <div class="row">
+            <div class="col bg">
+                1 of 3
+            </div>
+            <div class="col-md-auto bg">
+                可变宽度内容自由伸张,左列宽度变化(右列绑定co-lg-2栅格数)可变宽度内容自由伸张，左右宽度不变。
+            </div>
+            <div class="col col-lg-2 bg">
+                3 of 3
+            </div>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.js"></script>
+</body>
+
+</html>

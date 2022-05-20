@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <style>
+        .bg {
+            background-color: #abc123;
+            border: 1px solid red;
+        }
+    </style>
+    <title>提示与徽章</title>
+</head>
+
+<body>
+    <!-- <div class="container"> -->
+    <div class="container-fluid">
+        <!-- 1 -->
+        <h2>默认提示</h2>
+        <div class="row">
+            <div class="alert alert-primary" role="alert">
+                A simple primary alert—check it out!
+            </div>
+            <div class="alert alert-secondary" role="alert">
+                A simple secondary alert—check it out!
+            </div>
+            <div class="alert alert-success" role="alert">
+                A simple success alert—check it out!
+            </div>
+            <div class="alert alert-danger" role="alert">
+                A simple danger alert—check it out!
+            </div>
+            <div class="alert alert-warning" role="alert">
+                A simple warning alert—check it out!
+            </div>
+            <div class="alert alert-info" role="alert">
+                A simple info alert—check it out!
+            </div>
+            <div class="alert alert-light" role="alert">
+                A simple light alert—check it out!
+            </div>
+            <div class="alert alert-dark" role="alert">
+                A simple dark alert—check it out!
+            </div>
+        </div>
+
+        <h2>默认提示-带链接</h2>
+        <div class="row">
+
+            <div class="alert alert-primary" role="alert">
+                A simple primary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you
+                like.
+            </div>
+            <div class="alert alert-secondary" role="alert">
+                A simple secondary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if
+                you like.
+            </div>
+            <div class="alert alert-success" role="alert">
+                A simple success alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you
+                like.
+            </div>
+            <div class="alert alert-danger" role="alert">
+                A simple danger alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you
+                like.
+            </div>
+            <div class="alert alert-warning" role="alert">
+                A simple warning alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you
+                like.
+            </div>
+            <div class="alert alert-info" role="alert">
+                A simple info alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you
+                like.
+            </div>
+            <div class="alert alert-light" role="alert">
+                A simple light alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you
+                like.
+            </div>
+            <div class="alert alert-dark" role="alert">
+                A simple dark alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you
+                like.
+            </div>
+        </div>
+
+        <h2>带内容的提示</h2>
+        <div class="row">
+            <div class="col-4 alert alert-success" role="alert">
+                <h4 class="alert-heading">Well done!</h4>
+                <p>Aww yeah, you successfully read this important alert message. This example text is going to run a
+                    bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+                <hr>
+                <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+            </div>
+        </div>
+
+        <h2>带关闭按钮</h2>
+        <div class="row">
+            <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+        </div>
+
+        <hr>
+        <h2>标题中的徽章</h2>
+        <div class="row">
+            <div class="col">
+                <h1>Example heading <span class="badge badge-secondary">DE8UG</span></h1>
+                <h2>Example heading <span class="badge badge-secondary">88</span></h2>
+            </div>
+            <div class="col">
+                <h3>Example heading <span class="badge badge-secondary">New</span></h3>
+                <h4>Example heading <span class="badge badge-secondary">New</span></h4>
+            </div>
+            <div class="col">
+                <h5>Example heading <span class="badge badge-secondary">New</span></h5>
+                <h6>Example heading <span class="badge badge-secondary">New</span></h6>
+            </div>
+        </div>
+        <h2>徽章数字提示/五颜六色/胶囊/可点击</h2>
+        <div class="row">
+            <div class="col">
+                <button type="button" class="btn btn-primary">
+                    Notifications <span class="badge badge-light">8</span>
+                </button>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-primary">
+                    Profile <span class="badge badge-light">9</span>
+                    <span class="sr-only">unread messages</span>
+                </button>
+            </div>
+            <div class="col">
+                    <span class="badge badge-primary">Primary</span>
+                    <span class="badge badge-secondary">Secondary</span>
+                    <span class="badge badge-success">Success</span>
+                    <span class="badge badge-danger">Danger</span>
+                    <span class="badge badge-warning">Warning</span>
+                    <span class="badge badge-info">Info</span>
+                    <span class="badge badge-light">Light</span>
+                    <span class="badge badge-dark">Dark</span>
+            </div>
+            <div class="col">
+                    <span class="badge badge-pill badge-primary">Primary</span>
+                    <span class="badge badge-pill badge-secondary">Secondary</span>
+                    <span class="badge badge-pill badge-success">Success</span>
+                    <span class="badge badge-pill badge-danger">Danger</span>
+                    <span class="badge badge-pill badge-warning">Warning</span>
+                    <span class="badge badge-pill badge-info">Info</span>
+                    <span class="badge badge-pill badge-light">Light</span>
+                    <span class="badge badge-pill badge-dark">Dark</span>
+            </div>
+            <div class="col">
+                    <a href="#" class="badge badge-primary">Primary</a>
+                    <a href="#" class="badge badge-secondary">Secondary</a>
+                    <a href="#" class="badge badge-success">Success</a>
+                    <a href="#" class="badge badge-danger">Danger</a>
+                    <a href="#" class="badge badge-warning">Warning</a>
+                    <a href="#" class="badge badge-info">Info</a>
+                    <a href="#" class="badge badge-light">Light</a>
+                    <a href="#" class="badge badge-dark">Dark</a>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- <script src="js/bootstrap.js"></script> -->
+</body>
+
+</html>
